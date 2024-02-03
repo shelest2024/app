@@ -156,7 +156,7 @@ STATICFILES_DIRS = [
     BASE_DIR / "static",
 ]
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'public_html/static')
+STATIC_ROOT = BASE_DIR.parent / "public_html/static"
 # STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Добавление медиа
