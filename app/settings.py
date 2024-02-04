@@ -150,7 +150,7 @@ INTERNAL_IPS = [
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = "django-shelest/static/"
+STATIC_URL = str(Path(__file__).resolve().parent).split('/')[-1] + "static/"
 
 STATICFILES_DIRS = [
     BASE_DIR / "static",
