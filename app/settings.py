@@ -150,7 +150,7 @@ INTERNAL_IPS = [
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = "static/"
+STATIC_URL = "django-shelest/static/"
 
 STATICFILES_DIRS = [
     BASE_DIR / "static",
@@ -160,7 +160,7 @@ STATIC_ROOT = BASE_DIR.parent / "public_html/static"
 # STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Добавление медиа
-MEDIA_URL = "media/"
+MEDIA_URL = "django-shelest/media/"
 
 MEDIA_ROOT = BASE_DIR / "media"
 # Default primary key field type
